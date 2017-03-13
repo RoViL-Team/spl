@@ -3,9 +3,12 @@ Surface Patch Library (SPL)
 This is a Matlab toolbox for surface patches as described in the papers:
 
 HIGH-LEVEL DRIVERS: demo{manseg,autoseg,fit,spl}
-PATCH FUNCTIONS TEST/DEMO: testpatch{fit,plot,sample,residual,coverage,area,es}
-OTHER TEST/DEMO: test{approx,rexp,rangecovar}
-PATCH FUNCTIONS: patch{fit,plot,print,sample,residual,coverage,chk}
+PATCH FUNCTIONS TEST/DEMO: testpatch{contact,fit,plot,sample,residual,coverage,area,es}
+OTHER TEST/DEMO: test{approx,rangecovar,rexp}
+PATCH FUNCTIONS: patch{contact,fit,plot,print,sample,residual,coverage,chk}
+PATCH CONTACT FUNCTIONS: contactpatch{check,plot,pts,rot}
+HIGH-LEVEL PATCH CONTACT DEMOS: demo{man,auto}patchcontact
+PATCH CONTACT TEST/DEMO: testcontactpatches
 SEGMENTATION: manseg, autoseg
 RANGE DATA COVARIANCE FUNCTIONS: rangecovar, covarplot
 EXPMAP: r{exp,log,canon2,reparam}, dr{exp,log,canon2}, xform3, rtoq, qtor

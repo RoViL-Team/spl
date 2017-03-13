@@ -212,7 +212,9 @@ das3 = [das0 {'ssmethod','bfsmd'}];
 das4 = [das1 {'rpshow',2,'dbg',2}]; % pauses
 das5 = [das1 {'rpshow',2,'dbg',3}]; % no pauses
 das6 = [das1 {'rpshow',0,'dbg',3}]; % no pauses, delete rejected
-das = {das1 das2 das3 das4 das5 das6};
+das6 = [das1 {'rpshow',0,'dbg',3}]; % no pauses, delete rejected
+das7 = [das6 {'ssr',0.11,'maxs',500}]; % no pauses, delete rejected
+das = {das1 das2 das3 das4 das5 das6 das7};
 
 % argument handling %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
